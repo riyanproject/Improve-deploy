@@ -1,0 +1,42 @@
+.share-button{
+  background-color:blue;
+  color: aliceblue;
+  margin-left: 10px;
+  border-radius: 10px;
+  height: 27px;
+  width: 50px;
+  border-style: none;
+}
+.add-playlist-button{
+  border-radius: 10px;
+  background-color:  grey;
+  width: 20px;
+  color: white;
+  scale: 2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  border-style: none;
+
+}
+.addtoplaylistbutton{
+  border-radius: 10px;
+  height: 25px;
+  width: 100px;
+  border-style: none;
+  margin-left: 10px;
+  background-color: red;
+  color: white;
+  margin-bottom: 5px;
+
+}
+.createplaylistbutton{
+  border-radius: 10px;
+  height: 25px;
+  width: 100px;
+  border-style: none;
+  margin-left: 10px;
+  background-color: grey;
+  color: white;
+  margin-top: 5px;
+}

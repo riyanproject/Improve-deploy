@@ -1,0 +1,22 @@
+.hero {
+  position: relative;
+  z-index: 1; /* Ensure it's below other elements */
+}
+
+.banner-img {
+  width: 100%;
+  margin-top: 50px;  
+
+  
+
+
+
+  position: absolute; /* Allows stacking behind other elements */
+  z-index: 1; /* Lower z-index to stay behind the cards */
+}
+
+.more-cards {
+  position: relative; /* Ensure it stacks above the hero banner */
+  padding-left: 6%;
+  z-index: 2; /* Higher z-index to stack above the banner */
+}

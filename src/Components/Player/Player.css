@@ -1,0 +1,48 @@
+/* Main container for the player */
+.player {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #000; /* Black background for a cinematic effect */
+  color: #fff; /* White text for better contrast */
+}
+
+/* Back button styles */
+.player .back-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+  width: 30px;
+}
+
+/* YouTube iframe styles */
+.player iframe {
+  width: 90%; /* Makes the iframe responsive */
+  height: 90%; /* Ensures a large video display */
+  border-radius: 10px; /* Adds rounded corners for a modern look */
+}
+
+/* Player information section */
+.player-info {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%; /* Aligns with the iframe width */
+}
+
+/* Back button specific styles */
+.back-button {
+  cursor: pointer;
+  width: 30px;
+  margin: 10px;
+}
+
+/* Add additional text alignment or spacing for information */
+.player-info p {
+  margin: 5px 0;
+}

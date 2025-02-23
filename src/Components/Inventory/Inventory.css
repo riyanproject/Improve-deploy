@@ -1,0 +1,100 @@
+.inventory{
+  padding-left: 100px;
+  margin-top: 10px;
+  font-size:50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.favourites{
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-buttons {
+  position: absolute;
+  top: 10px;  /* Adjust this value to control the vertical positioning */
+  right: 10px;  /* Adjust this value to control the horizontal positioning */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .card-buttons {
+  opacity: 1; /* Show buttons on hover */
+}
+
+.inventory-button-delete {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.inventory-button-delete:hover {
+  background-color: rgba(200, 0, 0, 0.8); /* Red hover effect */
+}
+.Mind-title{
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.mind-picture{
+  display: inline-block;
+}
+.mind-container {
+  display: flex;
+  align-items: center; /* Aligns text and image vertically */
+  gap: 15px; /* Adds space between image and text */
+}
+
+.mind-image {
+  width: 150px; /* Adjust as needed */
+}
+
+.mind-text {
+  font-size: 16px;
+}
+.goals-inventory{
+  margin-left: 100px;
+}
+.mind-container{
+  
+}
+.time-inventory{
+  margin-left: 90px;
+}
+.Journal {
+  text-align: center; /* Centers text inside the div */
+  margin: 0 auto; /* Centers the div itself */
+  width: fit-content; /* Ensures the div only takes necessary width */
+}
+.journaltext{
+max-width: 1000px;
+}
+.journal-inventory {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the content horizontally */
+  text-align: center; /* Centers the text */
+  margin-top: 20px;
+}
+
+.journal-inventory textarea {
+  width: 100%; /* Makes the textarea responsive */
+  max-width: 600px; /* Sets a maximum width */
+  height: 600px; /* Default height */
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: vertical; /* Allows resizing only vertically */
+}
